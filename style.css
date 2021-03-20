@@ -13,7 +13,7 @@ header {
   font-size: 72px;
   color: #0f0f0f;
   text-align: center;
-  letter-spacing: -3;
+  letter-spacing: -3px;
   margin: 0;
   padding: 20px 0 0 0;
 }
@@ -149,15 +149,15 @@ footer p {
 
 main img {
   width: 100%;
-  height: auto%;
+  height: auto;
   object-fit: cover;
 }
 
-.profile {
+img.profile {
   width: 50%;
 }
 
-.centered {
+img.centered {
   display: block;
   margin: 0 auto;
 }
